@@ -198,7 +198,6 @@ footer{
 	background-color: #f0f0f0;
 }
 .social-1{
-	border: 1px solid black;
 	float: left;
 }
 .list-a ul{
@@ -227,7 +226,7 @@ footer{
 	margin-left: -40px;
 }
 
-.social-2{border: 1px solid black;
+.social-2{
 	float: right;
 }
 .social-2 ul li:last-child a{

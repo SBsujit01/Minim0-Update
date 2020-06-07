@@ -191,18 +191,23 @@ header{
 
 /*Service 2 End*/
 
+
 /*Footer start*/
-.footer{
+footer{
+	overflow: hidden;
 	background-color: #f0f0f0;
 }
 .social-1{
+	border: 1px solid black;
 	float: left;
-	width: 25%;
 }
-.list-a ul{}
+.list-a ul{
+}
 .list-a ul li{
 	float: left;
 	list-style: none;
+	padding-right: 20px;
+	text-transform: capitalize;
 }
 .list-a ul li a{	
 	font-weight: 400;
@@ -218,17 +223,15 @@ header{
 .list-a ul li a:hover{
 	border-bottom: 1px solid #626262;
 }
-.social-1 ul li:last-child a{
-	margin-left: 0;
-	padding-left: 0;
+.social-1  ul li:first-child a{
+	margin-left: -40px;
 }
-.social-2{
+
+.social-2{border: 1px solid black;
 	float: right;
-	width: 20%;
 }
 .social-2 ul li:last-child a{
-	margin-right: 0;
-	padding-right: 0;
+	margin-right: -20px;
 }
 
 

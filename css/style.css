@@ -47,7 +47,7 @@ header{
   border-bottom: 1px solid #626262;
 }
 .menu ul li:last-child a{
-	padding-right: 0;
+	margin-right: 0;
 }
 /*header End */
 
@@ -136,7 +136,7 @@ header{
 	font-size: 14px;
     color: #626262;
     width: 325px;
-    height: 45px;
+    height: 40px;
     border: none;
     border-bottom: 1px solid #000000;
     background: transparent;
@@ -161,6 +161,7 @@ header{
 .s-form button img{}
 
 /*Newsletter End*/
+
 
 /*Service 2 start*/
 .load_more{
@@ -187,7 +188,9 @@ header{
 	background-color: #626262;
 	color: white;
 }
+
 /*Service 2 End*/
+
 
 /*Footer start*/
 footer{

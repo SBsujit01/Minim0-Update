@@ -196,19 +196,20 @@ header{
 footer{
 	overflow: hidden;
 	background-color: #f0f0f0;
+	padding: 10px 0;
 }
 .social-1{
 	float: left;
 }
-.list-a ul{
+.social-1 ul{
+	float: left;
 }
-.list-a ul li{
+.social-1 ul li{
 	float: left;
 	list-style: none;
-	padding-right: 20px;
 	text-transform: capitalize;
 }
-.list-a ul li a{	
+.social-1 ul li a{	
 	font-weight: 400;
     font-size: 16px;    
     color:#000000;
@@ -219,17 +220,41 @@ footer{
     border-bottom: 1px solid transparent;
     transition: 1s;
 }
-.list-a ul li a:hover{
+.social-1 ul li a:hover{
 	border-bottom: 1px solid #626262;
 }
 .social-1  ul li:first-child a{
-	margin-left: -40px;
+	margin-left: 0;
 }
 
 .social-2{
 	float: right;
 }
-.social-2 ul li:last-child a{
-	margin-right: -20px;
+.social-2 ul{
+	float: right;
 }
+.social-2 ul li{
+	float: left;
+	list-style: none;
+	text-transform: capitalize;
+}
+.social-2 ul li a{	
+	font-weight: 400;
+    font-size: 16px;    
+    color:#000000;
+    margin: 10px;
+    text-decoration: none;
+	padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+.social-2 ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.social-2 ul li:last-child a{
+	margin-right: 0;
+}
+
+
 /*Footer end*/
